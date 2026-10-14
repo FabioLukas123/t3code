@@ -72,11 +72,11 @@ import {
   CircleAlertIcon,
   CircleCheckIcon,
   CircleDashedIcon,
+  CircleDotDashedIcon,
   ClockIcon,
   EyeIcon,
   FolderIcon,
   GitBranchIcon,
-  HourglassIcon,
   ListFilterIcon,
   MessageCircleQuestionIcon,
   PinIcon,
@@ -2063,7 +2063,7 @@ const SidebarThreadRow = memo(function SidebarThreadRow(props: {
                           {topStatus.icon === "working" ? (
                             <CircleDashedIcon aria-hidden className="size-4 shrink-0" />
                           ) : topStatus.icon === "waiting" ? (
-                            <HourglassIcon aria-hidden className="size-4 shrink-0" />
+                            <CircleDotDashedIcon aria-hidden className="size-4 shrink-0" />
                           ) : topStatus.icon === "input" ? (
                             <MessageCircleQuestionIcon aria-hidden className="size-4 shrink-0" />
                           ) : topStatus.icon === "approval" ? (
