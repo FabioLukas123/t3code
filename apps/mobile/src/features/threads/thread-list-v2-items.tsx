@@ -92,7 +92,7 @@ const STATUS_LABEL_BY_STATUS: Partial<Record<ThreadListV2Status, StatusLabel>> =
   },
   waiting: {
     label: "Waiting",
-    icon: "clock",
+    icon: "hourglass",
     className: "text-foreground-muted",
     iconTintClassName: "accent-foreground-muted",
   },

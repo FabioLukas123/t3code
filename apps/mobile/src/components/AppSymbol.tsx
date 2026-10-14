@@ -43,6 +43,7 @@ import IconCircleDot from "@tabler/icons-react-native/IconCircleDot";
 import IconCircleXFilled from "@tabler/icons-react-native/IconCircleXFilled";
 import IconTicket from "@tabler/icons-react-native/IconTicket";
 import IconClock from "@tabler/icons-react-native/IconClock";
+import IconHourglass from "@tabler/icons-react-native/IconHourglass";
 import IconCode from "@tabler/icons-react-native/IconCode";
 import IconCopy from "@tabler/icons-react-native/IconCopy";
 import IconDatabase from "@tabler/icons-react-native/IconDatabase";
@@ -177,6 +178,7 @@ const ANDROID_ICON_BY_SF_SYMBOL = {
   "circle.inset.filled": IconCircleDot,
   clock: IconClock,
   timer: IconClock,
+  hourglass: IconHourglass,
   ticket: IconTicket,
   cloud: IconCloud,
   cube: IconBox,
