@@ -94,8 +94,8 @@ export function threadSupportsProviderHandoff(projection: Projection | null | un
   }
   if (resolveActiveThreadRun(projection) !== null) return false;
 
-  // Without an attached session, the server can hand off saved app history even
-  // when the outgoing provider never returned a native thread reference.
+  // With no live session the server plans a portable handoff from saved app
+  // history, so the outgoing provider's native thread ref is not required.
   return true;
 }
 
